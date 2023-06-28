@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
 
@@ -45,7 +45,6 @@
         document.documentElement.lang = language;
         document.getElementById('language').value = language;
       }
-      loadLanguage();
       function changeLanguage() {
         var language = document.getElementById('language').value;
         localStorage.setItem('lang', language);
@@ -69,5 +68,21 @@
         s.parentNode.insertBefore(apply, s);
     })('https://test.paradox.ai', 'wihvlyjuoiccwkxclpin');
 </script>
+
+<script type='text/javascript'>
+    (function(o,l) {
+        window.oliviaChatData = window.oliviaChatData || [];
+        window.oliviaChatBaseUrl = o;
+        window.oliviaChatData.push(['setKey', l]);
+        window.oliviaChatData.push(['start']);
+        var apply = document.createElement('script');
+        apply.type = 'text/javascript';
+        apply.async = true;
+        apply.src = 'https://d2cxf26suf1qae.cloudfront.net/static/site/js/widget-client.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(apply, s);
+    })('https://test.paradox.ai', 'wihvlyjuoiccwkxclpin');
+</script>
+    
   </body>
 </html>
